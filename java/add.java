@@ -4,7 +4,15 @@ class add
 	{
 		int a=5,b=5,c;
 		c=a+b;
-		System.out.println(c);
+		int d=Integer.parseInt(args[0])+Integer.parseInt(args[1]);
+		float e=Float.parseFloat(args[2])+Float.parseFloat(args[3]);
+		System.out.println("constant:" + c);
+		System.out.println("Integer:" + (Integer.parseInt(args[0])+Integer.parseInt(args[1])));
+		System.out.println("Float:" + (Float.parseFloat(args[2])+Float.parseFloat(args[3])));
+		 System.out.println(d);
+		 System.out.println(e);
+		 System.out.println(d+" "+e);
 	}
+
 }
 		
